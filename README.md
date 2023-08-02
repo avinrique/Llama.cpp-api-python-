@@ -12,4 +12,5 @@ A simple python code to get the llama.cpp chat api
 command
 git clone https://github.com/avinrique/Llama.cpp-api-python-
 cd Llama.cpp-api-python-
-python 
+python fetch_chatapi.py
+
