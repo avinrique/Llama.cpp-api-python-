@@ -1,16 +1,41 @@
-# Llama.cpp-api-python-
-A simple python code to get the llama.cpp chat api
+# Llama.cpp API Python Integration
 
-## First clone and run llama.cpp library from 
-<a href="https://github.com/ggerganov/llama.cpp">llama.cpp</a> <br>
-<p>After all done , navigate to the llama.cpp folder</p> <br>
-### In llama.cpp run the server file this can be done using the command <br>
-####  ./server -m models/13b-chat/ggml-model-q4_0.bin -c 2048 <br>
-<p>here edit the path to that of the ggml file </p> <br>
-###After running the server now clone this repo <br>
-<a href="https://github.com/avinrique/Llama.cpp-api-python-/">https://github.com/avinrique/Llama.cpp-api-python-/</a> <br>
-command <br>
-git clone https://github.com/avinrique/Llama.cpp-api-python- <br>
-cd Llama.cpp-api-python- <br>
-python fetch_chatapi.py <br>
+A simple guide to get the llama.cpp chat API up and running using Python.
+
+## Steps to Follow
+
+### Step 1: Clone and Run the Llama.cpp Library
+
+First, clone the llama.cpp library from the following repository:
+
+[llama.cpp](https://github.com/ggerganov/llama.cpp)
+
+After cloning, navigate to the `llama.cpp` folder.
+
+### Step 2: Run the Server
+
+In the `llama.cpp` folder, run the server file using the command below. Make sure to edit the path to your `ggml` file accordingly:
+
+```bash
+./server -m models/13b-chat/ggml-model-q4_0.bin -c 2048
+```
+### Step 3: Clone the API Python Repository
+
+After running the server, clone the Llama.cpp API Python repository:
+
+```bash
+git clone https://github.com/avinrique/Llama.cpp-api-python-
+```
+### Navigate to the cloned directory:
+```bash
+cd Llama.cpp-api-python-
+```
+### Copy and paste file over the parent directory
+```bash
+cp fetch_chatapi.py ./../
+```
+### Run the file
+```python
+python app.py
+```
 
